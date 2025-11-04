@@ -107,7 +107,6 @@ img {
   color: #fff;
   display: block;
   max-width: 496px;
-  /*padding: 188px 472px 292px 472px;*/
 }
 .button {
   font-weight: 500;
@@ -128,17 +127,53 @@ img {
 }
 .container-advantages {
   display: flex;
-  justify-content: center;
+  width: 1128px;
   margin: 120px 156px;
 }
 .advantages-list {
   display: flex;
   gap: 24px;
 }
+.advantages-item {
+  width: calc((100% - 72px) / 4);
+}
+.advantages-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  padding-bottom: 8px;
+}
 .advantages-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.container-team {
   display: flex;
-  max-width: 264px;
-  padding-top: 8px;
+  gap: 72px;
+  /*justify-content: center;*/
+  width: 1440px;
+  padding: 120px 156px;
+}
+.team /*.container-team*/ {
+  display: block;
+  /*text-align: center;*/
+  /*max-width: 1440px;*/
+}
+.team-title,
+.team-text {
+  text-align: center;
+}
+.team-list {
+  display: flex;
+  gap: 24px;
+}
+.team-items {
+  display: flex;
+  gap: 24px;
+  width: calc((100% - 72px) / 4);
 }
 .team,
 .portfolio,
