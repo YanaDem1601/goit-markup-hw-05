@@ -34,7 +34,7 @@ img {
 
 .page-header {
   border-bottom: 1px solid #e7e9fc;
-  margin: 0 auto;
+  /*margin: 0 auto;*/
 }
 .logo {
   font-weight: 700;
@@ -52,7 +52,8 @@ img {
   align-items: center;
   flex-direction: row;
   align-items: center;
-  margin-left: 156px;
+  /*margin-left: 156px;*/
+  margin: 0 auto;
 }
 
 .header-logo .logo-part {
@@ -144,6 +145,9 @@ img {
 .button:hover,
 .button:focus {
   background: #404bbf;
+}
+.sec_two {
+  padding: 120px 0;
 }
 .visually-hidden {
   position: absolute;
@@ -257,8 +261,8 @@ img {
   display: flex;
   padding: 32px 16px;
   flex-direction: column;
-  border-top: none;
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
 .portfolio {
   display: flex;
@@ -286,6 +290,7 @@ img {
 
 .page-footer {
   background: #2e2f42;
+  padding: 100px 0;
 }
 .footer-logo {
   display: inline-block;
@@ -304,6 +309,5 @@ img {
 }
 .footer_ {
   display: flex;
-  padding: 100px 0;
   flex-direction: column;
 }
