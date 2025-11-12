@@ -272,12 +272,11 @@ img {
   height: 40px;
   border-radius: 50%;
 }
-.social-media {
-  fill: #f4f4fd;
-}
+
 .social-link {
-  /* justify-content: center; */
+  justify-content: center;
   align-items: center;
+  fill: #f4f4fd;
 }
 .name {
   display: flex;
