@@ -246,9 +246,15 @@ img {
   padding-bottom: 120px;
   margin: 0 auto;
 }
-.team-items {
+.team-item {
   justify-content: space-between;
   width: calc((100% - 72px) / 4);
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background: #fff;
+  cursor: pointer;
+  background-color: #ffffff;
+  border-radius: 0 0 4px 4px;
 }
 .team-title {
   margin-bottom: 8px;
@@ -314,10 +320,7 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.team-item {
-  background-color: #ffffff;
-  border-radius: 0 0 4px 4px;
-}
+
 .sec_three {
   background: #f4f4fd;
   padding: 120px 0;
