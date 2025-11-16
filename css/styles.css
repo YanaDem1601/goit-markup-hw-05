@@ -371,8 +371,9 @@ img {
   position: relative;
   overflow: hidden;
 }
-.iii {
+.image {
   position: relative;
+  overflow: hidden;
 }
 
 .portfolio-item:hover {
@@ -389,6 +390,9 @@ img {
   position: absolute;
   left: 0;
   top: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   right: 0;
   bottom: 0;
   width: 100%;
