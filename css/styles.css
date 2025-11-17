@@ -424,7 +424,7 @@ img {
   flex-direction: column;
   /*max-width: 264px;*/
   margin-right: 120px;
-  margin-left: 156px;
+  /*margin-left: 156px;*/
 }
 .footer-logo {
   /*display: inline-block;*/
@@ -472,5 +472,5 @@ img {
   flex-direction: column;
   margin-bottom: 16px;
   max-width: 208px;
-  margin-right: 120px;
+  /*margin-right: 120px;*/
 }
