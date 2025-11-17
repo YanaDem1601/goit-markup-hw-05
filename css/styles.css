@@ -448,13 +448,12 @@ img {
   gap: 16px;
 }
 
-/*.social-item .foot: {
-  gap: 16px;
-  /* width: 40px; 
-}*/
-
-.icon-foot {
+.social-link .icon-foot {
   width: 40px;
+}
+
+.social-link.foot{
+  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-link.foot:hover,
