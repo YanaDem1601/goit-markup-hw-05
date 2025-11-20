@@ -579,7 +579,6 @@ img {
   stroke: transparent;
 }
 
-.field-icon:hover,
-.field-icon:focus {
+.text-field:focus + .field-icon {
   fill: #4d5ae5;
 }
