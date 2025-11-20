@@ -578,3 +578,8 @@ img {
   fill: #2e2f42;
   stroke: transparent;
 }
+
+.field-icon:hover,
+.field-icon:focus {
+  fill: #4d5ae5;
+}
