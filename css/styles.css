@@ -577,8 +577,65 @@ img {
   transform: translateY(-50%);
   fill: #2e2f42;
   stroke: transparent;
+  transition: fill 250ms ease;
 }
 
 .text-field:focus + .field-icon {
   fill: #4d5ae5;
+}
+.text-comment {
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  width: 100%;
+  height: 120px;
+  padding: 8px 16px;
+  resize: none;
+  background-color: transparent;
+  outline: none;
+}
+.text-comment:focus,
+.text-comment:hover {
+  border-color: #4d5ae5;
+  transition: border-color 250ms ease;
+}
+.text-comment::placeholder {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
+}
+.button-modal {
+  border-radius: 4px;
+  padding-block: 16px;
+  padding-inline: 32px;
+  width: 169px;
+  height: 56px;
+  background: #4d5ae5;
+  cursor: pointer;
+  margin-top: 24px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+.policy-lavbel {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+}
+.policy-lavbel a {
+  text-decoration: underline;
+}
+.custom-checkbox {
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  display: inline-block;
+  cursor: pointer;
+}
+.policy-checkbox:checked + .policy-lavbel > .custom-checkbox {
+  background-color: #4d5ae5;
 }
