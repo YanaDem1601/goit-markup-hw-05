@@ -642,4 +642,5 @@ img {
 }
 .policy-checkbox:checked + .policy-lavbel > .custom-checkbox {
   background-color: #4d5ae5;
+  fill: #ffffff;
 }
