@@ -497,8 +497,8 @@ img {
   position: absolute;
   top: 24px;
   right: 24px;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center;
+  justify-content: center; */
   background-color: #e7e9fc;
   border-radius: 50%;
   height: 24px;
@@ -518,7 +518,7 @@ img {
 
 .close {
   stroke: #2e2f42;
-  /* display: block; */
+  display: block;
 }
 .close:hover,
 .close:focus {
