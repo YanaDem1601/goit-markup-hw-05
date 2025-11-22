@@ -518,7 +518,9 @@ img {
 
 .close {
   stroke: #2e2f42;
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .close:hover,
 .close:focus {
