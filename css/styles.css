@@ -497,6 +497,8 @@ img {
   position: absolute;
   top: 24px;
   right: 24px;
+  align-items: center;
+  justify-content: center;
   background-color: #e7e9fc;
   border-radius: 50%;
   height: 24px;
