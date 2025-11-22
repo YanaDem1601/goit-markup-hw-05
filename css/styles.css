@@ -506,8 +506,8 @@ img {
   transition: opacity 250ms ease-in-out;
 }
 .backdrop.is-open {
-  visibility: visible; 
-  opacity: 1; 
+  visibility: visible;
+  opacity: 1;
   pointer-events: auto;
 }
 .modal {
@@ -539,9 +539,6 @@ img {
   cursor: pointer;
   border: none;
   transition: background-color 250ms ease;
-  /* visibility: hidden;
-  /* opacity: 0;
-  pointer-events: none; */ */
 }
 
 .close-modal:hover,
@@ -645,7 +642,7 @@ img {
 }
 .button-modal {
   border-radius: 4px;
-  padding-block: 16px;
+  /* padding-block: 16px; */
   padding-inline: 32px;
   width: 169px;
   height: 56px;
@@ -655,7 +652,7 @@ img {
   background: #4d5ae5;
   color: #fff;
   cursor: pointer;
-  margin: 24px 96px 0 96px;
+  margin: 24px 94px 0 94px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -665,7 +662,7 @@ img {
   background: #404bbf;
 }
 .policy-lavbel {
-  font-weight: 400;
+  font-weight: 360;
   font-size: 12px;
   line-height: 1.16667;
   letter-spacing: 0.04em;
