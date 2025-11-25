@@ -508,6 +508,11 @@ img {
   padding: 8px 0 8px 16px;
 }
 
+.subscribe-button:hover,
+.subscribe-button:focus {
+  background: #31d0aa;
+}
+
 .arrow-icon {
   fill: #fff;
   margin-left: 16px;
