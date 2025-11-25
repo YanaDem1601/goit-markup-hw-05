@@ -487,6 +487,7 @@ img {
 
 .subscribe-form {
   display: flex;
+  gap: 24px;
   /* flex-direction: row; */
 }
 .subscribe-button {
@@ -502,8 +503,6 @@ img {
   letter-spacing: 0.04em;
   /* text-align: center; */
   color: #fff;
-  /* align-items: center;*/
-  justify-content: space-between;
   background-color: #4d5ae5;
   cursor: pointer;
   padding: 8px 0 8px 16px;
@@ -511,6 +510,7 @@ img {
 
 .arrow-icon {
   color: #fff;
+  padding-left: 24px;
 }
 
 .subscribe-field {
