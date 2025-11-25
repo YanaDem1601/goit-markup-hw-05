@@ -525,7 +525,13 @@ img {
   height: 40px;
   background-color: transparent;
   padding: 8px 16px;
-  /* margin-right: 24px; */
+}
+
+.subscribe-field:hover,
+.subscribe-field:focus {
+  border-color: #31d0aa;
+  border-radius: 4px;
+  outline: none;
 }
 
 .backdrop {
