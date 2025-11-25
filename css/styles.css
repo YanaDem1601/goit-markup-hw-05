@@ -562,6 +562,7 @@ img {
   width: 408px;
   height: 80%;
   min-height: 584px;
+  margin-bottom: 8px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -734,7 +735,7 @@ img {
 .policy-lavbel {
   font-weight: 360;
   font-size: 12px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
 }
@@ -757,7 +758,7 @@ img {
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .policy-checkbox:checked + .policy-lavbel > .custom-checkbox {
-  background-color: #404bbf;
+  background-color: #4d5ae5;
   /* stroke: #ffffff; */
   fill: #f4f4fd;
   border: none;
