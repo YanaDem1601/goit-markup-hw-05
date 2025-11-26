@@ -414,13 +414,13 @@ img {
 .container-footer {
   display: flex;
   align-items: baseline;
-  padding-left: 156px;
-  padding: 100px 0;
 }
-.footer1 {
+
+.footer-one {
   display: flex;
   flex-direction: column;
   margin-right: 120px;
+  padding: 100px 0;
 }
 .footer-logo {
   margin-bottom: 16px;
@@ -462,7 +462,7 @@ img {
   color: #fff;
   margin-bottom: 16px;
 }
-.footer2 {
+.footer-two {
   display: flex;
   flex-direction: column;
   margin-bottom: 16px;
@@ -471,7 +471,6 @@ img {
 .footer-subscribe {
   display: flex;
   flex-direction: column;
-  margin-bottom: 16px;
   margin-left: auto;
   width: 453px;
   height: 80px;
@@ -502,7 +501,6 @@ img {
   color: #fff;
   background-color: #4d5ae5;
   cursor: pointer;
-  padding: 8px 0 8px 16px;
   justify-content: center;
   align-items: center;
   border: none;
@@ -543,11 +541,11 @@ img {
   position: fixed;
   top: 0;
   left: 0;
-  /* padding: 72px 24px 24px 24px; */
   background-color: rgba(46, 47, 66, 0.4);
   height: 100%;
   width: 100%;
   z-index: 1000;
+  min-height: 584px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -619,7 +617,6 @@ img {
 }
 
 .text-modal {
-  padding: 48px 0 0 0;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
